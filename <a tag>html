@@ -9,5 +9,19 @@
     <!-- a -->
     <a href="https://google.com" target=_blank>Click</a>
     <p>Practice <b>Practice</b> </p> 
+    <!-- ol, ul, li -->
+    <ol  type="i" reversed>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+    <ul>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li></li>
+    </ul>
+    <!-- Input -->
+    <label for="">Name: </label>
+    <input id="input_name" type="text">
 </body>
 </html>
