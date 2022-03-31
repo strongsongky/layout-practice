@@ -1,0 +1,29 @@
+.container {
+    background: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between
+}
+.item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+.item1 {
+    background:red;
+    flex-grow: 1;
+    flex-shrink: 2;
+    align-self: center;
+}
+.item2 {
+    background:orange;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.item3 {
+    background:green;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
