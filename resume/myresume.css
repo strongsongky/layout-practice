@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+body {
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.image-wrapper > img {
+  width: 150px;
+  border: 3px solid black;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+p, ul {
+    flex: 1;
+    text-align: left;
+
+}
+
+p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  li {
+      background-color: rgb(54, 248, 86);
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+  }
