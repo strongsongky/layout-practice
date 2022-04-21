@@ -40,3 +40,9 @@ ul {
       margin-bottom: 10px;
       border-radius: 10px;
   }
+  
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
