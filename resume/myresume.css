@@ -27,6 +27,7 @@ p {
     color: white;
     padding: 10px;
     border-radius: 10px;
+    line-height: 25px;
 }
 
 ul {
@@ -39,9 +40,12 @@ ul {
       padding: 10px;
       margin-bottom: 10px;
       border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
   
-  img {
+  li > img {
     width: 30px;
     height: 30px;
     border-radius: 30px;
