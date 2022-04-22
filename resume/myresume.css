@@ -19,7 +19,6 @@ body {
 p, ul {
     flex: 1;
     text-align: left;
-
 }
 
 p {
@@ -33,6 +32,7 @@ p {
 ul {
     padding: 0;
     margin-left: 10px;
+    margin-block-end: 5px;
   }
 
   li {
@@ -50,3 +50,5 @@ ul {
     height: 30px;
     border-radius: 30px;
   }
+
+  
